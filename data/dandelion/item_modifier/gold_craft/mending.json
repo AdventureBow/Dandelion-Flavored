@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "minecraft:mending": 1
+    },
+    "minecraft:custom_data": {
+      "dandelion": {
+        "gold_craft": 1
+      }
+    }
+  }
+}

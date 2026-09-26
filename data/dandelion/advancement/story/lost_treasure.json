@@ -1,0 +1,33 @@
+{
+  "parent": "dandelion:story/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:spawner"
+    },
+    "title": "Lost Treasure",
+    "description": "Crack open a spawner for it's goodies!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "break_spawner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:experience_bottle",
+            "predicates": {
+              "minecraft:custom_data": {
+                "dandelion": {
+                  "spawner_loot": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

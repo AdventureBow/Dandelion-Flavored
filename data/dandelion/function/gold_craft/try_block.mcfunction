@@ -1,0 +1,1 @@
+$execute if items block ~ ~ ~ $(slot) #dandelion:golden_equipment unless items block ~ ~ ~ $(slot) *[minecraft:custom_data~{dandelion:{gold_craft:1}}] run function dandelion:gold_craft/roll {src:"block ~ ~ ~ $(slot)"}

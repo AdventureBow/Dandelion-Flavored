@@ -1,0 +1,1 @@
+execute as @e[type=#dandelion:armorable_mobs,tag=!deep_boosted,tag=!boosted,limit=30] at @s if predicate dandelion:below_zero unless items entity @s armor.head * unless items entity @s armor.chest * unless items entity @s armor.legs * unless items entity @s armor.feet * run function dandelion:difficulty/deep

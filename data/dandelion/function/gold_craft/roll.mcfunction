@@ -1,0 +1,10 @@
+$execute if items $(src) minecraft:golden_pickaxe run return run function dandelion:gold_craft/pickaxe {src:"$(src)"}
+$execute if items $(src) minecraft:golden_axe run return run function dandelion:gold_craft/axe {src:"$(src)"}
+$execute if items $(src) minecraft:golden_shovel run return run function dandelion:gold_craft/shovel {src:"$(src)"}
+$execute if items $(src) minecraft:golden_hoe run return run function dandelion:gold_craft/hoe {src:"$(src)"}
+$execute if items $(src) minecraft:golden_sword run return run function dandelion:gold_craft/sword {src:"$(src)"}
+$execute if items $(src) minecraft:golden_spear run return run function dandelion:gold_craft/spear {src:"$(src)"}
+$execute if items $(src) minecraft:golden_helmet run return run function dandelion:gold_craft/helmet {src:"$(src)"}
+$execute if items $(src) minecraft:golden_chestplate run return run function dandelion:gold_craft/chest {src:"$(src)"}
+$execute if items $(src) minecraft:golden_leggings run return run function dandelion:gold_craft/legs {src:"$(src)"}
+$execute if items $(src) minecraft:golden_boots run return run function dandelion:gold_craft/boots {src:"$(src)"}

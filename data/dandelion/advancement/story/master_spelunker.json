@@ -1,0 +1,101 @@
+{
+  "parent": "dandelion:story/hidden_magic",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": "Master Spelunker",
+    "description": "Wear a full set of gold trimmed armor with an Efficiency V golden or netherite pickaxe to insta-mine deepslate",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gold_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "full_gold_trim_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "minecraft:slots": {
+            "armor.head": {
+              "items": "#minecraft:trimmable_armor",
+              "predicates": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold"
+                }
+              }
+            },
+            "armor.chest": {
+              "items": "#minecraft:trimmable_armor",
+              "predicates": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold"
+                }
+              }
+            },
+            "armor.legs": {
+              "items": "#minecraft:trimmable_armor",
+              "predicates": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold"
+                }
+              }
+            },
+            "armor.feet": {
+              "items": "#minecraft:trimmable_armor",
+              "predicates": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["gold_pickaxe", "netherite_pickaxe"],
+    ["full_gold_trim_armor"]
+  ]
+}

@@ -1,0 +1,1 @@
+$execute if items entity @s $(slot) *[minecraft:enchantments~{"dandelion:unbreakable":1}] unless items entity @s $(slot) *[minecraft:unbreakable] run item modify entity @s $(slot) dandelion:make_unbreakable

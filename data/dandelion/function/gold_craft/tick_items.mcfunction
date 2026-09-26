@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item] if items entity @s contents #dandelion:golden_equipment unless items entity @s contents *[minecraft:custom_data~{dandelion:{gold_craft:1}}] at @s run function dandelion:gold_craft/if_adjacent_crafter

@@ -1,0 +1,12 @@
+execute store result score #rng trim_mat run random value 1..100
+execute if score #rng trim_mat matches 1..15 run data modify storage dandelion:trim material set value "minecraft:redstone"
+execute if score #rng trim_mat matches 16..30 run data modify storage dandelion:trim material set value "minecraft:copper"
+execute if score #rng trim_mat matches 31..45 run data modify storage dandelion:trim material set value "minecraft:diamond"
+execute if score #rng trim_mat matches 46..57 run data modify storage dandelion:trim material set value "minecraft:emerald"
+execute if score #rng trim_mat matches 58..72 run data modify storage dandelion:trim material set value "minecraft:quartz"
+execute if score #rng trim_mat matches 73..81 run data modify storage dandelion:trim material set value "minecraft:amethyst"
+execute if score #rng trim_mat matches 82..85 run data modify storage dandelion:trim material set value "minecraft:iron"
+execute if score #rng trim_mat matches 86..89 run data modify storage dandelion:trim material set value "minecraft:gold"
+execute if score #rng trim_mat matches 90..93 run data modify storage dandelion:trim material set value "minecraft:resin"
+execute if score #rng trim_mat matches 94..97 run data modify storage dandelion:trim material set value "minecraft:lapis"
+execute if score #rng trim_mat matches 98..100 run data modify storage dandelion:trim material set value "minecraft:netherite"

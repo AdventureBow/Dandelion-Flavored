@@ -1,0 +1,81 @@
+{
+  "criteria": {
+    "golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    },
+    "golden_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_axe"
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_shovel"
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_hoe"
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_sword"
+      }
+    },
+    "golden_spear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_spear"
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_helmet"
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_chestplate"
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_leggings"
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_pickaxe",
+      "golden_axe",
+      "golden_shovel",
+      "golden_hoe",
+      "golden_sword",
+      "golden_spear",
+      "golden_helmet",
+      "golden_chestplate",
+      "golden_leggings",
+      "golden_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "dandelion:gold_craft/on_craft"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "lethal_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "minecraft:nbt": "{Health:0.0f}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dandelion:health/remove_heart"
+  }
+}

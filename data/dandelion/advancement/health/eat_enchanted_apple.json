@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "eat_enchanted_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:apple",
+          "predicates": {
+            "minecraft:custom_data": {
+              "dandelion": {
+                "enchanted_apple": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dandelion:health/gain_heart_eapple"
+  }
+}
