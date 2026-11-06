@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "banner_dye",
+  "input": "#dandelion:banner_except/cyan",
+  "material": "minecraft:cyan_dye",
+  "result": {
+    "id": "minecraft:cyan_banner"
+  }
+}

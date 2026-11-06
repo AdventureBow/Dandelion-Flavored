@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dandelion_enchant",
+  "pattern": [
+    "BIB",
+    "BQB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:lapis_lazuli",
+    "I": "minecraft:sugar",
+    "Q": "minecraft:writable_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:quick_charge": 1
+      }
+    }
+  }
+}

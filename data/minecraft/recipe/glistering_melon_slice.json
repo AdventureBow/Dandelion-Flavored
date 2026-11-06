@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "X": "minecraft:melon_slice"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:glistering_melon_slice",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 2.2
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 0,
+                "duration": 1,
+                "show_particles": true,
+                "show_icon": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "dandelion": {
+          "edible": 1
+        }
+      }
+    }
+  }
+}

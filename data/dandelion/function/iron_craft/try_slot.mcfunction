@@ -1,0 +1,1 @@
+$execute unless entity @s[tag=iron_crafted] if items entity @s $(slot) #dandelion:iron_equipment unless items entity @s $(slot) *[minecraft:custom_data~{dandelion:{iron_craft:1}}] run function dandelion:iron_craft/roll {src:"entity @s $(slot)"}

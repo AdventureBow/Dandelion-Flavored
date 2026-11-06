@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dandelion_enchant",
+  "pattern": [
+    "BIB",
+    "BQB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:lapis_lazuli",
+    "I": "minecraft:heavy_core",
+    "Q": "minecraft:writable_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:wind_burst": 1
+      }
+    }
+  }
+}

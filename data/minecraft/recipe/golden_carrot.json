@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "X": "minecraft:carrot"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:golden_carrot",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 14.4
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:night_vision",
+                "amplifier": 0,
+                "duration": 300,
+                "show_particles": true,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "dandelion": {
+          "edible": 1
+        }
+      }
+    }
+  }
+}

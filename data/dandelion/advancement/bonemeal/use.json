@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bone_meal",
+          "predicates": {
+            "minecraft:custom_data": {
+              "dandelion": {
+                "bonemeal": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dandelion:bonemeal/use"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "criteria": {
+    "iron_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_pickaxe"
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_axe"
+      }
+    },
+    "iron_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_shovel"
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_hoe"
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_sword"
+      }
+    },
+    "iron_spear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_spear"
+      }
+    },
+    "iron_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_helmet"
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_chestplate"
+      }
+    },
+    "iron_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_leggings"
+      }
+    },
+    "iron_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_pickaxe",
+      "iron_axe",
+      "iron_shovel",
+      "iron_hoe",
+      "iron_sword",
+      "iron_spear",
+      "iron_helmet",
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "dandelion:iron_craft/on_craft"
+  }
+}

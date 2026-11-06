@@ -1,0 +1,3 @@
+$execute unless items entity @s $(slot) * run return fail
+$execute if items entity @s $(slot) *[minecraft:repair_cost] unless items entity @s $(slot) *[minecraft:repair_cost=0] unless items entity @s $(slot) *[minecraft:repair_cost=1] unless items entity @s $(slot) *[minecraft:repair_cost=2] unless items entity @s $(slot) *[minecraft:repair_cost=3] unless items entity @s $(slot) *[minecraft:repair_cost=4] run item modify entity @s $(slot) dandelion:repair_cost_cap
+$execute if items entity @s $(slot) *[minecraft:enchantments~{"dandelion:unbreakable":1}] unless items entity @s $(slot) *[minecraft:unbreakable] run item modify entity @s $(slot) dandelion:make_unbreakable

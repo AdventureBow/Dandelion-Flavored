@@ -1,0 +1,110 @@
+{
+  "additional_wants": {
+    "id": "minecraft:compass"
+  },
+  "given_item_modifiers": [
+    {
+      "decoration": "minecraft:village_snowy",
+      "destination": "minecraft:on_snowy_village_maps",
+      "function": "minecraft:exploration_map",
+      "search_radius": 100
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:sequence",
+        "functions": [
+          {
+            "function": "minecraft:set_name",
+            "name": {
+              "translate": "filled_map.village_snowy"
+            },
+            "target": "item_name"
+          },
+          {
+            "function": "minecraft:set_custom_data",
+            "tag": "{dandelion_map:1b}"
+          }
+        ]
+      }
+    },
+    {
+      "decoration": "minecraft:red_x",
+      "destination": "minecraft:on_treasure_maps",
+      "function": "minecraft:exploration_map",
+      "search_radius": 100,
+      "skip_existing_chunks": false,
+      "zoom": 1
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:custom_data": "{dandelion_map:1b}"
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:filtered",
+        "item_filter": {
+          "items": "minecraft:filled_map",
+          "predicates": {
+            "minecraft:map_id": {}
+          }
+        },
+        "on_pass": {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "filled_map.buried_treasure"
+          },
+          "target": "item_name"
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_components",
+        "components": {
+          "!minecraft:custom_data": {}
+        }
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:map"
+  },
+  "max_uses": 12.0,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:snow"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 8.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0
+}

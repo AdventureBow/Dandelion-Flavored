@@ -5,7 +5,7 @@
       "id": "minecraft:skeleton_skull"
     },
     "title": "Nine Lives",
-    "description": "Dying costs a heart. Enchanted food can restore them.",
+    "description": "Dying costs a heart. Golden food can restore them.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "minecraft:fire_protection": 3
+    },
+    "minecraft:custom_data": {
+      "dandelion": {
+        "gold_craft": 1
+      }
+    }
+  }
+}

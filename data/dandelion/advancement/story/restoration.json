@@ -2,13 +2,10 @@
   "parent": "dandelion:story/nine_lives",
   "display": {
     "icon": {
-      "id": "minecraft:apple",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
+      "id": "minecraft:golden_apple"
     },
     "title": "Restoration",
-    "description": "Enchanted Apples restore lost hearts. Craft it with 8 Lapis and an Apple.",
+    "description": "Golden apples restore lost hearts.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -20,14 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:apple",
-            "predicates": {
-              "minecraft:custom_data": {
-                "dandelion": {
-                  "enchanted_apple": 1
-                }
-              }
-            }
+            "items": "minecraft:golden_apple"
           }
         ]
       }

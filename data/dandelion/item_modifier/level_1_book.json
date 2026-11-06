@@ -1,0 +1,838 @@
+{
+  "function": "minecraft:sequence",
+  "functions": [
+    {
+      "function": "minecraft:enchant_randomly",
+      "options": "#minecraft:non_treasure",
+      "only_compatible": true
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:protection",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:protection": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:fire_protection",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:fire_protection": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:feather_falling",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:feather_falling": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:blast_protection",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:blast_protection": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:projectile_protection",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:projectile_protection": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:respiration",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:respiration": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:aqua_affinity",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:aqua_affinity": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:thorns",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:thorns": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:depth_strider",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:depth_strider": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:sharpness",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:sharpness": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:smite",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:smite": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:bane_of_arthropods",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:bane_of_arthropods": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:knockback",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:knockback": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:fire_aspect",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:fire_aspect": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:looting",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:looting": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:sweeping_edge",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:sweeping_edge": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:efficiency",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:efficiency": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:silk_touch": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:unbreaking",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:unbreaking": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:fortune",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:fortune": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:power",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:power": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:punch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:punch": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:flame",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:flame": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:infinity",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:infinity": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:luck_of_the_sea",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:luck_of_the_sea": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:lure",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:lure": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:loyalty",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:loyalty": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:impaling",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:impaling": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:riptide",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:riptide": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:channeling",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:channeling": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:multishot",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:multishot": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:quick_charge",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:quick_charge": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:piercing",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:piercing": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:density",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:density": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:breach",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:breach": 1
+        },
+        "add": false
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:enchanted_book",
+        "predicates": {
+          "minecraft:stored_enchantments": [
+            {
+              "enchantments": "minecraft:lunge",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "on_pass": {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+          "minecraft:lunge": 1
+        },
+        "add": false
+      }
+    }
+  ]
+}

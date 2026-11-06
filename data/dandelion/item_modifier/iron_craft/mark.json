@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "dandelion": {
+        "iron_craft": 1
+      }
+    }
+  }
+}

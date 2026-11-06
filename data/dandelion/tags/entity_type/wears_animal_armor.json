@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:can_wear_horse_armor",
+    "#minecraft:can_wear_nautilus_armor",
+    "minecraft:wolf",
+    "minecraft:donkey",
+    "minecraft:mule",
+    "minecraft:skeleton_horse"
+  ]
+}

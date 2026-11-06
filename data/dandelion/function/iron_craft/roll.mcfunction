@@ -1,0 +1,10 @@
+$execute if items $(src) minecraft:iron_pickaxe run return run function dandelion:iron_craft/pickaxe {src:"$(src)"}
+$execute if items $(src) minecraft:iron_axe run return run function dandelion:iron_craft/axe {src:"$(src)"}
+$execute if items $(src) minecraft:iron_shovel run return run function dandelion:iron_craft/shovel {src:"$(src)"}
+$execute if items $(src) minecraft:iron_hoe run return run function dandelion:iron_craft/hoe {src:"$(src)"}
+$execute if items $(src) minecraft:iron_sword run return run function dandelion:iron_craft/sword {src:"$(src)"}
+$execute if items $(src) minecraft:iron_spear run return run function dandelion:iron_craft/spear {src:"$(src)"}
+$execute if items $(src) minecraft:iron_helmet run return run function dandelion:iron_craft/helmet {src:"$(src)"}
+$execute if items $(src) minecraft:iron_chestplate run return run function dandelion:iron_craft/chest {src:"$(src)"}
+$execute if items $(src) minecraft:iron_leggings run return run function dandelion:iron_craft/legs {src:"$(src)"}
+$execute if items $(src) minecraft:iron_boots run return run function dandelion:iron_craft/boots {src:"$(src)"}

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item] if items entity @s contents #dandelion:iron_equipment unless items entity @s contents *[minecraft:custom_data~{dandelion:{iron_craft:1}}] at @s run function dandelion:iron_craft/if_adjacent_crafter

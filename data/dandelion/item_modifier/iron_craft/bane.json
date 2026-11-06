@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "minecraft:bane_of_arthropods": 1
+    },
+    "minecraft:custom_data": {
+      "dandelion": {
+        "iron_craft": 1
+      }
+    }
+  }
+}

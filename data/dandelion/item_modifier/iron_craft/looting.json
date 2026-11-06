@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "minecraft:looting": 1
+    },
+    "minecraft:custom_data": {
+      "dandelion": {
+        "iron_craft": 1
+      }
+    }
+  }
+}
